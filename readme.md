@@ -1,20 +1,20 @@
-Git aliases for manipulating with *.gitignore* based on [gitignore.io](https://www.gitignore.io/) for Windows.
+Git aliases for manipulating *.gitignore* file based on [gitignore.io](https://www.gitignore.io/) for Windows.
 
-# Install
+# Installation
 
-  - Copy file git-ignore.cmd to git/cmd path
+  - Copy file git-ignore.cmd to Program Files/Git/cmd path
   - Run aliases.bat
 
 # Commands
 
-Commands can be called everywhere in valid git repository.
+Commands can be called everywhere inside valid git repository.
 
 **Create .gitignore**
 ```sh
 git ignore yeoman,node
 ```
 
-**Open .gitignore file**
+**Open .gitignore file in texteditor**
 ```sh
 git ignore-open
 ```
@@ -35,7 +35,7 @@ git ignore-show
 git ignore-list
 ```
 
-**Show list of available sources and filter using findstr**
+**Show list of available sources and filter them using findstr**
 ```sh
 git ignore-flist node
 ```
