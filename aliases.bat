@@ -1,0 +1,6 @@
+git config --global --replace-all alias.ignore "!git-ignore.cmd $1 > \"$(git rev-parse --show-toplevel)/.gitignore\""
+git config --global --replace-all alias.ignore-add "!git-ignore.cmd $1 >> \"$(git rev-parse --show-toplevel)/.gitignore\""
+git config --global --replace-all alias.ignore-list "!git-ignore.cmd list"
+git config --global --replace-all alias.ignore-flist "!git-ignore.cmd list | findstr"
+git config --global --replace-all alias.ignore-show "!cat \"$(git rev-parse --show-toplevel)/.gitignore\""
+git config --global --replace-all alias.ignore-open "!start \"\" \"$(git rev-parse --show-toplevel)/.gitignore\""
